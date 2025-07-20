@@ -1,0 +1,7 @@
+@use 'variables' as *;
+
+@each $name in $list-names {
+  .#{$name} {
+    background-image: url("#{$name}.jpg");
+  }
+}
